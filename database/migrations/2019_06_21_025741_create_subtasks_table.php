@@ -20,7 +20,6 @@ class CreateSubtasksTable extends Migration
             $table->date('start_date');
             $table->date('end_date');
             $table->string('done_by');
-            $table->boolean('subtask_completed');
             $table->timestamps();;
         });
     }
